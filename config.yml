@@ -1,0 +1,36 @@
+### NE PAS TOUCHER | DO NOT TOUCH
+version: 1.0.0
+
+prefix: "&6RandomTP &f»"
+
+### PLAYER, &
+
+messages:
+  PermissionsMessages:
+    ### Message d'erreur lors ce que le joueur n'a pas la permission de se téléporter.
+    permission: "&cErreur: Vous n'avez pas la permission d'execute cette commande." # randomtp.use (personnalisable) ou OP
+    ### Message d'erreur lors ce que le joueur n'a pas la permission de téléporter un autre joueur.
+    permissionother: "&cErreur: Vous n'avez pas la permission de teleporter une autre personne que vous." # randomtp.player.other (personnalisable) ou OP
+  Erreurs:
+    noplayer: "&cErreur: Le joueur PLAYER que vous avez specifie n'est pas connecte."
+    isdeath: "&cErreur: Il est impossible de téléporter PLAYER car il est mort."
+  Reussite:
+    teleporation: "&fVous avez été téléporter en"
+    teleporatationother: "&7PLAYER &fvous à téléporter en"
+    teleporatationother1: "&fVous avez téléporter le joueur &7PLAYER &f"
+    reload: "&fVous avez bien rechargé la configuration du plugin"
+  
+permissions:
+  Use: "randomtp.use"
+  OtherPlayers: "randomtp.player.other"
+  Reload: "randomtp.reload"
+  
+coordonne: ### Prochainement... | Soon...
+  max: 3000 ### Prochainement... | Soon...
+  min: 500 ### Prochainement... | Soon...
+  
+sign:
+  ### RandomTP
+  signlore1: "Teleportation"
+  signlore2: "Aleatoire"
+  signlore3: "..."
